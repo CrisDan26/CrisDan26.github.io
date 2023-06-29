@@ -1,0 +1,98 @@
+
+/*---TEXTO---*/
+
+h1{
+    font-family: 'Lilita One', cursive;
+    font-size: 60px;
+}
+
+span {
+    color: #7f0500;
+}
+
+p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #7f0500;
+}
+
+
+/*---HEADERS---*/
+
+header {
+    height: 150px;
+    background-color: #ab0700;    
+    border: 5px solid #7f0500;
+}
+
+
+/*---IMAGENES---*/
+
+.logo {
+    position: relative;
+    left: 20px;
+}
+
+.cecytem{
+    position: relative;
+    right: -980px;
+}
+
+
+/*---BOTONES---*/
+
+button {
+ display: flex;
+ height: 50px;
+ width: 150px;
+ align-items: center;
+ justify-content: center;
+ background-color: #eeeeee4b;
+ border-radius: 3px;
+ letter-spacing: 1px;
+ transition: all 0.2s linear;
+ cursor: pointer;
+ border: none;
+ background: #fff;
+}
+
+button > svg {
+ margin-right: 5px;
+ margin-left: 5px;
+ font-size: 100px;
+ transition: all 0.4s ease-in;
+}
+
+button:hover > svg {
+ font-size: 1.2em;
+ transform: translateX(-5px);
+}
+
+button:hover {
+ box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+ transform: translateY(-2px);
+}
+
+/*---ARTICLES---*/
+
+article {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: white;
+  border-top: 2px solid #7f0500;
+  border-bottom: 2px solid #7f0500;
+}
+
+main {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    border-top: 2px solid #7f0500;
+    border-bottom: 2px solid #7f0500;
+}

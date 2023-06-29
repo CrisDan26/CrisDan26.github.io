@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Servicios de Emergencia</title>
+  <style>
+    BODY{
+        background-color: #6d6b7c48;
+    }
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      
+    }
+    
+    th, td {
+      border: 5px solid rgb(28, 18, 73);
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #8780c2;
+      color: white;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    
+    img {
+      max-width: 100px;
+      max-height: 100px;
+    }
+    
+article {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+
+.color {
+    border-top: 3px solid #46007f;
+    border-bottom: 3px solid #46007f;
+}
+
+main {
+    background-color: #bbb6c0;
+    padding: 40px 20px;
+}
+
+/*---Botones---*/
+
+button {
+    width: 100px;
+    height: 50px;
+    font-size: 25px;    
+    font-weight: 900;
+    align-content: center;
+    background-color: white;
+    border: 4px solid #7f0500;
+}
+@keyframes reveal {
+      0% { opacity: 0; }
+      50% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    h1 {
+      text-align: center;
+      font-family: "Arial Black", sans-serif;
+      font-size: 60px;
+      color: #3d0c49;
+      position: relative;
+    }
+
+    h1::after {
+      content: "INFORMACION";
+      position: center;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      animation: reveal 3s infinite;
+    }
+    
+.listo {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #db4343;
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #000;
+        transition: all 0.3s ease;
+      }
+      
+      .comic-button:hover {
+        background-color: #fff;
+        color: #db4343;
+        border: 2px solid #db4343;
+        box-shadow: 5px 5px 0px #db4343;
+      }
+      
+      .comic-button:active {
+        background-color: #fcf414;
+        box-shadow: none;
+        transform: translateY(4px);
+      }
+
+      .Bregreso {
+        height: 80px;
+        width: 80px;    
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+        text-decoration: none;
+    }
+    
+    button {
+     display: flex;
+     height: 50px;
+     width: 150px;
+     align-items: center;
+     justify-content: center;
+     background-color: #eeeeee4b;
+     border-radius: 3px;
+     letter-spacing: 1px;
+     transition: all 0.2s linear;
+     cursor: pointer;
+     border: none;
+     background: #fff;
+    }
+    
+    button > svg {
+     margin-right: 5px;
+     margin-left: 5px;
+     font-size: 100px;
+     transition: all 0.4s ease-in;
+    }
+    
+    button:hover > svg {
+     font-size: 1.2em;
+     transform: translateX(-5px);
+    }
+    
+    button:hover {
+     box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+     transform: translateY(-2px);
+    }
+
+  </style>
+</head>
+<body><h1></h1>
+   
+  <article class="color">
+    <p> <span>REPORTE:</span>En esta tabla encontraras los datos mas fundamentales sobre los servicios que ofrecemos: </p>
+ </article>  
+  <table align="center">
+    <tr>
+      <th>Servicio</th>
+      <th>Función</th>
+      <th>Teléfono</th>
+      <th>Necesidades Atendidas</th>
+      <th>Jefe a Cargo</th>
+      <th>Imagen</th>
+    </tr>
+    <tr>
+      <td>Policía</td>
+      <td>Preservar el orden público, investigar delitos y garantizar la seguridad ciudadana</td>
+      <td>911</td>
+      <td>Emergencias, delitos, seguridad ciudadana</td>
+      <td>Comisario Juan Pérez</td>
+      <td><img src="../imagenes/imagenes/pol.jpeg" alt="Policía"></td>
+    </tr>
+    <tr>
+      <td>Bomberos</td>
+      <td>Atender incendios, rescates y emergencias relacionadas con la protección civil</td>
+      <td>911</td>
+      <td>Incendios, rescates, emergencias</td>
+      <td>Comandante Laura García</td>
+      <td><img src="../imagenes/bombo.png" alt="Bomberos"></td>
+    </tr>
+    <tr>
+      <td>Servicio Médico</td>
+      <td>Brindar atención médica de emergencia y traslados sanitarios</td>
+      <td>911</td>
+      <td>Emergencias médicas, traslados sanitarios</td>
+      <td>Dr. Carlos Martínez</td>
+      <td><img src="../imagenes/medicoo.png" alt="Servicio Médico"></td>
+    </tr>
+    <tr>
+      <td>Alerta Amber</td>
+      <td>Difundir información sobre niños y adolescentes desaparecidos</td>
+      <td>800-843-5678</td>
+      <td>Desapariciones de niños y adolescentes</td>
+      <td>Oficial Ana Sánchez</td>
+      <td><img src="../imagenes/alert.png" alt="Alerta Amber"></td>
+    </tr>
+    <tr>
+      <td>Servicio de Electricidad</td>
+      <td>Reparar y mantener la infraestructura eléctrica</td>
+      <td>123-456-7890</td>
+      <td>Fallas eléctricas, cortes de energía</td>
+      <td>Ing. Roberto López</td>
+      <td><img src="../imagenes/electt.png" alt="Alerta Amber"></td>
+    </tr></table> <a href="../index.html"><button>
+        <svg height="80px" width="90px" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"><path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path></svg>
+        <span class="Batras">Atrás</span>
+      </button></a>

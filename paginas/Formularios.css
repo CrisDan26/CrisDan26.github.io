@@ -1,0 +1,321 @@
+/*---TEXTO---*/
+
+h1 {
+    font-family: 'Lilita One', cursive;
+}
+
+h2 {
+    font-family: 'Lilita One', cursive;
+    color: #370846;
+    font-size: 100px;
+}
+
+p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span {
+    color: #7f0500;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+label {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/*---HEADERS---*/
+
+header {
+    height: 150px;
+    background-color: #ab0700;    
+    border: 5px solid #7f0500;
+}
+
+
+/*---IMAGENES---*/
+
+.logo {
+    position: relative;
+    left: 20px;
+}
+
+.cecytem{
+    position: relative;
+    right: -980px;
+}
+
+
+/*---ARTICULOS---*/
+
+article {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.principal {
+  border-top: 3px solid #7f0500;
+  border-bottom: 3px solid #7f0500;
+}
+
+main {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+}
+
+/*---ESTILO DE LAS PREGUNTAS---*/
+
+.pregunta {
+    padding-left: 10px;   
+}
+
+/*BOTONES*/
+
+.listo {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #db4343;
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #000;
+        transition: all 0.3s ease;
+      }
+      
+      .comic-button:hover {
+        background-color: #fff;
+        color: #db4343;
+        border: 2px solid #db4343;
+        box-shadow: 5px 5px 0px #db4343;
+      }
+      
+      .comic-button:active {
+        background-color: #fcf414;
+        box-shadow: none;
+        transform: translateY(4px);
+      }
+
+      .Bregreso {
+        height: 80px;
+        width: 80px;    
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+        text-decoration: none;
+    }
+    
+    button {
+     display: flex;
+     height: 50px;
+     width: 150px;
+     align-items: center;
+     justify-content: center;
+     background-color: #eeeeee4b;
+     border-radius: 3px;
+     letter-spacing: 1px;
+     transition: all 0.2s linear;
+     cursor: pointer;
+     border: none;
+     background: #fff;
+    }
+    
+    button > svg {
+     margin-right: 5px;
+     margin-left: 5px;
+     font-size: 100px;
+     transition: all 0.4s ease-in;
+    }
+    
+    button:hover > svg {
+     font-size: 1.2em;
+     transform: translateX(-5px);
+    }
+    
+    button:hover {
+     box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+     transform: translateY(-2px);
+    }
+
+      /*FORMULARIO */
+     
+      input{
+        
+        margin: 10px 0;
+        width: 300px;
+        height: 30px;
+        font-size: 20px;
+      }
+      
+      input:focus:valid {
+        background: rgb(145, 202, 145);
+      }
+      input:focus:invalid {
+        background: rgb(224, 117, 117);
+      }
+      
+      form{
+        border: 1px solid black;
+        width: 370px;
+        box-sizing: border-box;
+        padding: 30px;
+        margin: 50px auto;
+        border-radius: 15px;
+        background: #eee;
+        box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.5);
+        
+      }
+    
+      article {
+        max-width: 1200px;
+        margin: 10px auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: white;
+      }
+      
+      .hai {  
+        position: fixed;
+        border: 10px solid #7f0500;
+        max-width: 500px;
+        margin: 5px;
+        padding: 10px;
+        background-color: #ffffff;
+        font-weight: bolder;
+      }
+      
+      .atencion {
+        border-bottom: 3px solid #7f0500;
+      }
+      
+      .color {
+          border-top: 3px solid #7f0500;
+          border-bottom: 3px solid #7f0500;
+      }
+      
+      main {
+          background-color: #f0f0f0;
+          padding: 40px 20px;
+      }
+
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ebdc996e;
+        border-radius: 5px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      }
+  
+      .form-group {
+        margin-bottom: 20px;
+      }
+  
+      .form-group label {
+        display: block;
+        margin-bottom: 10px;
+        color: #888;
+      }
+  
+      .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #555353;
+        border-radius: 3px;
+      }
+  
+      .form-group input.error {
+        border-color: #ff0000;
+      }
+  
+      .form-group .error-message {
+        color: #ff0000;
+        font-size: 12px;
+      }
+  
+      .form-group button {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      
+  .listo {
+          display: inline-block;
+          padding: 10px 20px;
+          font-size: 24px;
+          font-weight: bold;
+          text-align: center;
+          text-decoration: none;
+          color: #fff;
+          background-color: #db4343;
+          border: 2px solid #000;
+          border-radius: 10px;
+          box-shadow: 5px 5px 0px #000;
+          transition: all 0.3s ease;
+        }
+        
+        .comic-button:hover {
+          background-color: #fff;
+          color: #db4343;
+          border: 2px solid #db4343;
+          box-shadow: 5px 5px 0px #db4343;
+        }
+        
+        .comic-button:active {
+          background-color: #fcf414;
+          box-shadow: none;
+          transform: translateY(4px);
+        }
+  
+        .Bregreso {
+          height: 80px;
+          width: 80px;    
+          border: 1px solid #ffffff;
+          background-color: #ffffff;
+          text-decoration: none;
+      }
+      
+      button {
+       display: flex;
+       height: 50px;
+       width: 150px;
+       align-items: center;
+       justify-content: center;
+       background-color: #eeeeee4b;
+       border-radius: 3px;
+       letter-spacing: 1px;
+       transition: all 0.2s linear;
+       cursor: pointer;
+       border: none;
+       background: #fff;
+      }
+      
+      button > svg {
+       margin-right: 5px;
+       margin-left: 5px;
+       font-size: 100px;
+       transition: all 0.4s ease-in;
+      }
+      
+      button:hover > svg {
+       font-size: 1.2em;
+       transform: translateX(-5px);
+      }
+      
+      button:hover {
+       box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+       transform: translateY(-2px);
+      }

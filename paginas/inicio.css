@@ -1,0 +1,391 @@
+/*---Texto---*/
+
+h1{
+    font-family: 'Lilita One', cursive;
+}
+
+span {
+    color: #7f0500;
+}
+
+p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textito {
+    color: white;
+    font-size:25px;
+}
+
+.mision {
+    font-size: 40px;
+}
+
+.vision {
+    font-size: 40px;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.titulito {
+    color: white;
+    font-size: 30px;
+}
+
+/*---Hipervinculos---*/
+
+.otra {
+    color: white;
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+    
+}
+
+
+/*---Headers---*/
+
+.chiquito{
+   height: 20px;
+   background-color: #ab0700;    
+   border: 5px solid #7f0500;   
+}
+
+header {
+    height: 150px;
+    background-color: #ab0700;    
+    border: 5px solid #7f0500;
+    border-bottom: 1px solid #ab0700;
+}
+
+.menu {
+    height: 80px;
+    border: 4px solid #ab0700;
+    border-top: 20px solid #7f0500;
+    background-color: white;        
+}
+
+/*---Imagen---*/
+
+.logo {
+    position: relative;
+    left: 20px;
+}
+
+.cecytem{
+    position: relative;
+    right: -980px;
+}
+
+/*---Articulos---*/
+
+article {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.hai {  
+  position: fixed;
+  border: 10px solid #7f0500;
+  max-width: 500px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  font-weight: bolder;
+}
+
+.atencion {
+  border-bottom: 3px solid #7f0500;
+}
+
+.color {
+    border-top: 3px solid #7f0500;
+    border-bottom: 3px solid #7f0500;
+}
+
+main {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+}
+
+/*---Botones---*/
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 25px;    
+    font-weight: 900;
+    align-content: center;
+    background-color: white;
+    border: 4px solid #7f0500;
+}
+
+/*---Animaciones---*/
+
+.waviy {  
+  font-size: 70px;
+}
+.waviy span {  
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 3px #7f0500;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-family: 'Lilita One', cursive;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  position: relative;
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+/*---MENÚ---*/
+
+.container__menu {
+    height: 50px;
+    background-color: white;
+    padding: 0px 20px;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+}
+
+.menuu {
+    margin: auto;
+    height: 100%;        
+}
+
+.nave {
+    height: 100%;    
+}
+
+.nave > ul {
+    height:100%;
+    display: flex;    
+}
+
+.nave  ul  li {
+    height: 100%;
+    list-style: none;
+    position: relative;    
+}
+
+.nave > ul > li > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    transition: all 300ms ease;
+}
+
+.nave > ul > li > a:hover {
+    transform: scale(0.5);
+    background: #ab0700;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    color: white;
+}
+
+#selected {
+    transform: scale(0.5);
+    background: #ab0700;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    color: white;
+}
+
+/*---SUBMENÚ---*/
+
+nav ul li ul {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    z-index: 10;
+    transition: all 300ms ease;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav ul li ul:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    font-family: 'Rajdhani', sans-serif;    
+}
+
+nav ul li ul li a {
+    display: block;
+    color: black;
+    padding: 6px;
+    padding-left: 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav ul li ul li a:hover {
+    background: #e2262f;
+    color: white;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+
+/*---IMAGENES DE SERVICIOS---*/
+
+table {
+    align-items:center;
+    justify-content: center;
+    display: flex;
+}
+
+.card {
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+
+.card div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+.card .front {
+    background: white;
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.card .back {
+    background: #444444;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card:hover .front {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(500px) rotateY(360deg);
+}
+
+
+/*---FOOTER---*/
+
+.pie-pagina {
+    border-top: 10px solid #7f0500;
+    width:100%;
+    background-color: #0a141d;    
+}
+
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: red;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width:800px){
+  .pie-pagina .grupo-1 {
+    width: 90%;    
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+}  
+}

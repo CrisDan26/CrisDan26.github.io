@@ -1,0 +1,162 @@
+
+/*---TEXTO---*/
+
+h1{
+    font-family: 'Lilita One', cursive;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+span {
+    color: #7f0500;
+}
+
+p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #7f0500;
+}
+
+
+/*---HEADERS---*/
+
+header {
+    height: 150px;
+    background-color: #ab0700;    
+    border: 5px solid #7f0500;
+}
+
+
+/*---IMAGENES---*/
+
+.logo {
+    position: relative;
+    left: 20px;
+}
+
+.cecytem{
+    position: relative;
+    right: -650px;
+}
+
+
+/*---BOTONES---*/
+
+button {
+ display: flex;
+ height: 50px;
+ width: 150px;
+ align-items: center;
+ justify-content: center;
+ background-color: #eeeeee4b;
+ border-radius: 3px;
+ letter-spacing: 1px;
+ transition: all 0.2s linear;
+ cursor: pointer;
+ border: none;
+ background: #fff;
+}
+
+button > svg {
+ margin-right: 5px;
+ margin-left: 5px;
+ font-size: 100px;
+ transition: all 0.4s ease-in;
+}
+
+button:hover > svg {
+ font-size: 1.2em;
+ transform: translateX(-5px);
+}
+
+button:hover {
+ box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+ transform: translateY(-2px);
+}
+
+/*---ARTICLES---*/
+
+article {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: white;
+  border-top: 2px solid #7f0500;
+  border-bottom: 2px solid #7f0500;
+}
+
+main {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    border-top: 2px solid #7f0500;
+    border-bottom: 2px solid #7f0500;
+}
+
+
+ /*FORMULARIO */
+     
+      input{
+        border: 1px solid #1b6b29;
+        margin: 10px 0;
+        width: 300px;
+        height: 30px;
+        font-size: 20px;
+      }
+      
+      input:focus:valid {
+        background: rgb(145, 202, 145);
+      }
+      input:focus:invalid {
+        background: rgb(224, 117, 117);
+      }
+      
+      form{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        border: 3px solid #7f0500;
+        width: 370px;
+        box-sizing: border-box;
+        padding: 30px;
+        margin: 50px auto;
+        border-radius: 15px;
+        background: #eee;
+        box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.5);
+        
+      }
+
+
+/*---BOTÓN---*/
+
+.listo {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #db4343;
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #000;
+        transition: all 0.3s ease;
+      }
+      
+      .comic-button:hover {
+        background-color: #fff;
+        color: #db4343;
+        border: 2px solid #db4343;
+        box-shadow: 5px 5px 0px #db4343;
+      }
+      
+      .comic-button:active {
+        background-color: #fcf414;
+        box-shadow: none;
+        transform: translateY(4px);
+      }
